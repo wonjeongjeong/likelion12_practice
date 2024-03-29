@@ -3,14 +3,14 @@ function handleFileSelection() {
     var fileContainer = document.getElementById('fileContainer');
 
     for (var i = 0; i < selectedFiles.length; i++) {
-      var fileList = document.createElement('li');
+      var fileList = document.createElement('div');
       fileList.classList.add('file-box');
       fileList.dataset.index = i + 1;
 
       var fileName = document.createElement('p');
       fileName.classList.add('file-name');
       fileName.textContent = selectedFiles[i].name;
-      
+
       var deleteButton = document.createElement('span');
       deleteButton.classList.add('delete-button');
       deleteButton.textContent = '삭제';

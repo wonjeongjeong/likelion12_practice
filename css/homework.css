@@ -23,14 +23,14 @@
     padding-top:20px;
   }
   .assginment_title{
-    display: inline-block;
+    display: flex;
     font-family: "Gmarket Sans";
     /*font-size: 18px;*/
     font-weight: normal;
     margin-left:10px;
   }
   .title_book_btn{
-    display: inline-block;
+    /*display: flex;*/
     width: 35px;
     height: 35px;
   }
@@ -39,24 +39,24 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 580px;
+    width: 560px;
     height: auto;
   }
   .line{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .assginment_box{
     display: flex;
     flex-direction: column;
     border: 1px solid #d9d9d9;
-    width: 580px;
+    width: 560px;
     height: auto;
     border-radius: 8px;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
     margin-top: 10px;
   }
@@ -115,9 +115,7 @@
     height: 200px;
     border-radius: 8px;
     padding: 20px;
-    margin: 0 auto;
-    margin-top:10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
   }
   .assginment_check_box::-webkit-scrollbar{
     width: 15px;
@@ -166,7 +164,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid var(--color-orange-main);
+    /*border: 1px solid var(--color-orange-main);*/
     background-color: var(--color-orange-main);
     width: 410px;
     height: 25px;
