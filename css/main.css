@@ -14,6 +14,7 @@
 .notosanskr * {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 .assignment_title_div{
   display: flex;
   margin: 0 auto;
@@ -21,23 +22,27 @@
   align-items: center;
   margin-top:20px;
 }
-.assginment_title{
+
+.assignment_title{
   font-family: "Gmarket Sans";
   font-size: 18px;
   font-weight: normal;
 }
+
 .title_book_btn{
   width: 35px;
   height: 35px;
   margin-right:10px;
 }
+
 .assignment_list_div{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 40px auto;
 }
-.assginment_box{
+
+.assignment_box{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,23 +54,26 @@
   margin-top:20px;
   margin-bottom: 20px;
 }
-.assginment_category{
-  width: 160px;
+
+.assignment_category{
+  width: 140px;
   text-align: center;
   font-family: "Noto Sans KR";
   color: var(--color-main-black);
   font-size: 15px;
   font-weight: bold;
 }
-.assginment_goal{
-  width: 200px;
+
+.assignment_goal{
+  width: 240px;
   text-align: center;
   font-family: "Noto Sans KR";
   color: var(--color-main-black);
   font-size: 12px;
 }
-.assginment_deadline{
-  width: 160px;
+
+.assignment_deadline{
+  width: 140px;
   text-align: center;
   font-family: "Noto Sans KR";
   color: var(--color-orange-main);
